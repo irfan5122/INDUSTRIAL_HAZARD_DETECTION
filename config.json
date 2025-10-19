@@ -1,0 +1,62 @@
+{
+    "ui": {
+        "theme": "dark",
+        "sidebar_collapsed": false,
+        "default_page": "Dashboard"
+    },
+    "network": {
+        "esp32_ip": "192.168.1.100",
+        "port": 8080,
+        "protocol": "websocket",
+        "auto_reconnect": true,
+        "reconnect_interval": 5
+    },
+    "sensors": {
+        "gas": {
+            "enabled": true,
+            "warning_threshold": 50,
+            "danger_threshold": 100,
+            "unit": "ppm"
+        },
+        "temperature": {
+            "enabled": true,
+            "warning_threshold": 40,
+            "danger_threshold": 50,
+            "unit": "\u00b0C"
+        },
+        "humidity": {
+            "enabled": true,
+            "unit": "%"
+        },
+        "gps": {
+            "enabled": true,
+            "update_interval": 1
+        },
+        "accelerometer": {
+            "enabled": true,
+            "sampling_rate": 100
+        },
+        "gyroscope": {
+            "enabled": true,
+            "sampling_rate": 100
+        }
+    },
+    "ml": {
+        "fall_detection": {
+            "enabled": true,
+            "model_path": "models/fall_detection.pkl",
+            "threshold": 0.7,
+            "window_size": 50
+        }
+    },
+    "alerts": {
+        "sound_enabled": true,
+        "notification_enabled": true,
+        "log_all_events": true
+    },
+    "data": {
+        "log_retention_days": 30,
+        "export_format": "csv",
+        "auto_export": false
+    }
+}

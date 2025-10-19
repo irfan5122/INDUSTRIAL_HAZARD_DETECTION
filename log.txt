@@ -1,0 +1,2 @@
+pyqtgraph installed
+pip install PyQt6-WebEngine
