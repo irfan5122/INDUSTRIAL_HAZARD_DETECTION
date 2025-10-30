@@ -350,5 +350,5 @@ MIT License - See LICENSE file for details
 ## 📧 Support
 
 For issues and questions:
-- GitHub Issues: https://github.com/yourusername/smart-helmet-dashboard/issues
-- Email: support@example.com
+- GitHub Issues: https://github.com/irfan5122/smart-helmet-dashboard/issues
+- Email: irfannrichu@gmail.com
