@@ -350,5 +350,5 @@ MIT License - See LICENSE file for details
 ## 📧 Support
 
 For issues and questions:
-- GitHub Issues: https://github.com/irfan5122/smart-helmet-dashboard/issues
+- GitHub Issues: https://github.com/irfan5122/INDUSTRIAL_HAZARD_DETECTION
 - Email: irfannrichu@gmail.com
